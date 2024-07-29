@@ -1,0 +1,124 @@
+.skill-section{
+    width: 100vw;
+    min-height: calc(90vh - 80px);
+    /* background-color: red; */
+    display: grid;
+    grid-template-columns: 0.8fr 1.2fr;
+    grid-template-rows: 1fr;
+}
+
+.skill-section .skills-intro{
+    text-transform: capitalize;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color: aliceblue;
+    flex-direction: column;
+    gap: 50px;
+    margin: auto;
+}
+
+.skill-section .skills-intro img{
+    width: 50%;
+}
+
+.skill-section .skills{
+    /* background-color: green; */
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* Add addtional columns to accomodate*/
+    grid-template-rows: 1fr 1fr 1fr;    /* Add addtional columns to accomodate*/
+}
+
+.skill-section .skills .skill{
+    /* background-color: red; */
+    width: 90%;
+    height: 60px;
+    margin: auto;
+    border: 2px solid aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: aliceblue;
+    cursor: pointer;
+    transition: 0.25s linear;
+    font-weight: 900;
+}
+
+.html:hover{
+    background-color: orange;
+}
+
+.css:hover{
+    background-color: rgb(51, 51, 220);
+
+}
+
+.js:hover{
+    background-color: yellow;
+}
+
+.js:hover p{
+    color: black;
+    font-weight: 900;
+}
+
+.node:hover{
+    background-color: aliceblue;
+}
+
+.node:hover p{
+    color: black;
+}
+
+.node:hover p span{
+    color: rgb(58, 190, 58);
+}
+
+.express:hover{
+    background-color: aliceblue;
+}
+
+.express:hover p{
+    color: black;
+}
+
+.express:hover p span{
+    background-color: yellow;
+}
+
+.mongoDB:hover{
+    background-color: rgb(255, 255, 255);
+}
+
+.mongoDB:hover p{
+    font-weight: 900;
+    color: black;
+}
+.mongoDB:hover p span{
+    color: green;
+}
+
+.java:hover{
+    background-color: aliceblue;
+}
+
+.java:hover p{
+    color: rgb(110, 128, 218);
+    font-weight: 900;
+}
+
+.c-lang:hover, .cpp:hover{
+    background-color: rgb(3, 83, 212);
+    border-color: black;
+}
+
+.c-lang:hover p, .cpp:hover p{
+    font-weight: 900;
+}
+
+.skill:hover{
+    border-color: black;
+}

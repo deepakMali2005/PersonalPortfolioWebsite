@@ -1,0 +1,50 @@
+.hero-section{
+    width: 100vw;
+    height: calc(90vh - 80px);
+    /* background-color: red; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+
+}
+
+.hero-section .intro-text{
+    margin: auto;
+    font-size: 20px;
+}
+
+.hero-section .intro-text h1{
+    color: aliceblue;
+    font-weight: 900;
+}
+
+.hero-section .intro-text #element{
+    font-size: 40px;
+    font-weight: 900;
+}
+
+@keyframes blink{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+.cursor{
+    font-size: 40px;
+    font-weight: 400;
+    animation: blink 0.8s linear infinite normal ;
+}
+
+.hero-section .dev-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+}
+
+.hero-section .dev-image img{
+    width: 50%;
+}

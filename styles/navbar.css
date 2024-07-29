@@ -1,0 +1,68 @@
+
+.main{
+    width: 100%;
+    min-height: 100%;
+    background-color: rgb(25, 25, 33);
+    position: relative;
+}
+
+::selection{
+    color: aqua;
+    background-color: black;
+}
+
+
+
+.navbar{
+    width: 100vw;
+    height: 80px;
+    margin:auto;
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    place-items: center;
+    color: aliceblue;
+}
+
+.navbar2{
+    display: none;
+}
+
+.navbar2-list{
+    display: none;
+}
+
+.navbar .logo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.navbar .logo a{
+    color: aliceblue;
+    font-size: 30px;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+
+.navbar a .menu{
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 50px;
+    /* padding: 15px; */
+    /* border: 1px solid transparent; */
+    background-color: transparent;
+    border-radius: 20px;
+    transition: 0.25s linear;
+}
+
+
+.navbar .menu:hover{
+    background-color: rgba(255,255,255, 0.2);
+    /* color: rgb(31, 27, 27); */
+}
